@@ -2,7 +2,7 @@ const express=require('express');
 const router=express.Router();
 
 router.get('/',(req,res)=>{
-    res.json([])
+    res.json([1,2,3])
 })
 
 module.exports=router;
